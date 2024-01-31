@@ -1,10 +1,10 @@
 function factorial(num) {
- let sum = 1
+ let answer = 1
   for(let i = num; i > 0; i--){
-  sum *= i
+  answer *= i
  }
- console.log(sum)
-  return sum;
+ console.log(answer)
+  return answer;
 }
 
 // console.log(factorial(4))
